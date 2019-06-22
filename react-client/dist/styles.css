@@ -1,0 +1,11 @@
+body {
+  background: none;
+  width: 100%;
+  margin: 0;
+  padding: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+  font-size: 36px;
+}
