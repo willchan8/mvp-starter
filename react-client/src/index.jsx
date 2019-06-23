@@ -1,37 +1,46 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import axios from 'axios';
-import List from './components/List.jsx';
-import Map from './components/Map.jsx';
+import $ from 'jquery';
+import RestaurantList from './components/RestaurantList.jsx';
+import MapContainer from './components/MapContainer.jsx';
 
 class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = { 
-      items: []
+      restaurants: [],
+      visitedRestaurants: []
     }
   }
 
   componentDidMount() {
-    // $.ajax({
-    //   url: '/items', 
-    //   success: (data) => {
-    //     this.setState({
-    //       items: data
-    //     })
-    //   },
-    //   error: (err) => {
-    //     console.log('err', err);
-    //   }
-    // });
+    $.ajax({
+      url: '/restaurants', 
+      success: (data) => {
+        this.setState({
+          restaurants: data
+        })
+      },
+      error: (err) => {
+        console.log('err', err);
+      }
+    });
   }
 
   render () {
+    const {restaurants} = this.state;
     return (
       <div>
-        <h1 className='header'>Item List</h1>
-        <List items={this.state.items}/>
-        <Map />
+        <h1 className="header">Boba Buddy</h1>
+        <div className="row">
+          <div className="column">
+            <MapContainer restaurants={restaurants}/>
+          </div>
+          <div className="column">
+            <RestaurantList restaurants={restaurants}/>
+          </div>
+        </div>
       </div>
     )
   }
