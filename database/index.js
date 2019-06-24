@@ -36,7 +36,8 @@ const restaurantSchema = mongoose.Schema({
   },
   phone: String,
   display_phone: String,
-  distance: Number
+  distance: Number,
+  visited: Boolean
 });
 
 const Restaurant = mongoose.model('Restaurant', restaurantSchema);

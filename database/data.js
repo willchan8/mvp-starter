@@ -44,7 +44,8 @@ const data = {
           },
           "phone": "+14159672622",
           "display_phone": "(415) 967-2622",
-          "distance": 4121.854967426437
+          "distance": 4121.854967426437,
+          "visited": false
       },
       {
           "id": "xji2vmCj8kqsbA_cvd5hvw",
@@ -86,7 +87,8 @@ const data = {
           },
           "phone": "+14157316889",
           "display_phone": "(415) 731-6889",
-          "distance": 3827.3374304293425
+          "distance": 3827.3374304293425,
+          "visited": false
       },
       {
         "id": "zfs3gpYPbMBLseqaAsQN-A",
@@ -130,7 +132,8 @@ const data = {
         },
         "phone": "+14158729753",
         "display_phone": "(415) 872-9753",
-        "distance": 4444.648748427257
+        "distance": 4444.648748427257,
+        "visited": false
       },
       {
           "id": "F4YgPOvuCClXTwB9PJk8Qg",
@@ -177,7 +180,8 @@ const data = {
           },
           "phone": "+14155212022",
           "display_phone": "(415) 521-2022",
-          "distance": 3645.798542087573
+          "distance": 3645.798542087573,
+          "visited": false
       },
       {
           "id": "vMiM0kaavveZZ61lBe-LJg",
@@ -219,7 +223,8 @@ const data = {
           },
           "phone": "+14157570223",
           "display_phone": "(415) 757-0223",
-          "distance": 4419.33034353537
+          "distance": 4419.33034353537,
+          "visited": false
       },
       {
           "id": "VQPtsRVNTFkFptcXDTtIyg",
@@ -264,7 +269,8 @@ const data = {
           },
           "phone": "+14155902873",
           "display_phone": "(415) 590-2873",
-          "distance": 1892.3707686804041
+          "distance": 1892.3707686804041,
+          "visited": false
       },
       {
         "id": "18TtLS_JtiS2OH30FLqNrw",
@@ -302,7 +308,8 @@ const data = {
         },
         "phone": "+14159672622",
         "display_phone": "(415) 967-2622",
-        "distance": 1353.0244808857371
+        "distance": 1353.0244808857371,
+        "visited": false
       },
       {
           "id": "vAIHU9GjFLSquh4VkFLIhg",
@@ -346,7 +353,8 @@ const data = {
           },
           "phone": "+14153337242",
           "display_phone": "(415) 333-7242",
-          "distance": 4435.014764983965
+          "distance": 4435.014764983965,
+          "visited": false
       },
       {
           "id": "cY8-KnCc1LXYw7u9RRkx0w",
@@ -394,7 +402,8 @@ const data = {
           },
           "phone": "+14158729245",
           "display_phone": "(415) 872-9245",
-          "distance": 4138.414984593063
+          "distance": 4138.414984593063,
+          "visited": false
       },
       {
           "id": "MQv3nVGFKOVb8iFO9oc1IA",
@@ -443,7 +452,8 @@ const data = {
           },
           "phone": "+14158241293",
           "display_phone": "(415) 824-1293",
-          "distance": 1503.8658683239255
+          "distance": 1503.8658683239255,
+          "visited": false
       },
       {
           "id": "wBvDeIMjm_bq7dfyyusAwg",
@@ -489,7 +499,8 @@ const data = {
           },
           "phone": "+14153879009",
           "display_phone": "(415) 387-9009",
-          "distance": 5646.741828236844
+          "distance": 5646.741828236844,
+          "visited": false
       },
       {
           "id": "OSZ6bFeCcv4PvUmvuiMEJw",
@@ -538,7 +549,8 @@ const data = {
           },
           "phone": "+14157026763",
           "display_phone": "(415) 702-6763",
-          "distance": 3129.16425470999
+          "distance": 3129.16425470999,
+          "visited": false
       },
       {
           "id": "168JCbfPASa30FoHZZaIEg",
@@ -584,7 +596,8 @@ const data = {
           },
           "phone": "+14159672622",
           "display_phone": "(415) 967-2622",
-          "distance": 2557.3849651794453
+          "distance": 2557.3849651794453,
+          "visited": false
       },
       {
           "id": "6o0GBaGjWfBkAWFU0Qb6Hw",
@@ -626,7 +639,8 @@ const data = {
           },
           "phone": "+14159672622",
           "display_phone": "(415) 967-2622",
-          "distance": 1758.978016835297
+          "distance": 1758.978016835297,
+          "visited": false
       },
       {
           "id": "xe6IZGzW8fgxalv6RCBS5A",
@@ -675,7 +689,8 @@ const data = {
           },
           "phone": "+14154637886",
           "display_phone": "(415) 463-7886",
-          "distance": 4343.633894154571
+          "distance": 4343.633894154571,
+          "visited": false
       },
       {
           "id": "lz8Kn4blqgUUV3vMBsM_AQ",
@@ -721,7 +736,8 @@ const data = {
           },
           "phone": "+14155493688",
           "display_phone": "(415) 549-3688",
-          "distance": 4184.301688884892
+          "distance": 4184.301688884892,
+          "visited": false
       },
       {
         "id": "V6L23CJAM9cm0zzWAhSwVA",
@@ -768,7 +784,8 @@ const data = {
         },
         "phone": "+14153468383",
         "display_phone": "(415) 346-8383",
-        "distance": 2738.0586989715016
+        "distance": 2738.0586989715016,
+        "visited": false
       },
       {
           "id": "erYYJowEw5Z_gqXdT0XuQQ",
@@ -814,7 +831,8 @@ const data = {
           },
           "phone": "+15103988499",
           "display_phone": "(510) 398-8499",
-          "distance": 3717.130542572667
+          "distance": 3717.130542572667,
+          "visited": false
       },
       {
           "id": "qGf1STU58RroSfnUdghLBA",
@@ -862,7 +880,8 @@ const data = {
           },
           "phone": "+14156663888",
           "display_phone": "(415) 666-3888",
-          "distance": 3678.6495786604696
+          "distance": 3678.6495786604696,
+          "visited": false
       },
       {
           "id": "pe6gWOOmCOp2lV1BDLmhiA",
@@ -911,7 +930,8 @@ const data = {
           },
           "phone": "+14153794683",
           "display_phone": "(415) 379-4683",
-          "distance": 4751.244914412119
+          "distance": 4751.244914412119,
+          "visited": false
       },
       {
           "id": "tYXhOHDzfywE7ykGTqkyMA",
@@ -960,7 +980,8 @@ const data = {
           },
           "phone": "+14155665888",
           "display_phone": "(415) 566-5888",
-          "distance": 4216.547888420226
+          "distance": 4216.547888420226,
+          "visited": false
       },
       {
           "id": "khpoEMBwgQitHAqVVMrOog",
@@ -998,7 +1019,8 @@ const data = {
           },
           "phone": "+14159672622",
           "display_phone": "(415) 967-2622",
-          "distance": 3519.5486716268183
+          "distance": 3519.5486716268183,
+          "visited": false
       },
       {
           "id": "AdABvu7gwwRjZKzVLQeDOQ",
@@ -1044,7 +1066,8 @@ const data = {
           },
           "phone": "+14159627437",
           "display_phone": "(415) 962-7437",
-          "distance": 3023.480405259595
+          "distance": 3023.480405259595,
+          "visited": false
       },
       {
           "id": "TB3Yx9vRug8lnkL-08VkCw",
@@ -1090,7 +1113,8 @@ const data = {
           },
           "phone": "+14156818818",
           "display_phone": "(415) 681-8818",
-          "distance": 5428.6411843026535
+          "distance": 5428.6411843026535,
+          "visited": false
       },
       {
           "id": "gJsUMxHGXkEdN7hIMhhmKA",
@@ -1135,7 +1159,8 @@ const data = {
           },
           "phone": "+14156069336",
           "display_phone": "(415) 606-9336",
-          "distance": 4643.999346308058
+          "distance": 4643.999346308058,
+          "visited": false
       },
       {
           "id": "0cOWy_tLhszUgzoiAUdGDg",
@@ -1183,7 +1208,8 @@ const data = {
           },
           "phone": "+14157695681",
           "display_phone": "(415) 769-5681",
-          "distance": 4187.595270797013
+          "distance": 4187.595270797013,
+          "visited": false
       },
       {
           "id": "Tes8t6pLTfiH2Q1TwNjyRA",
@@ -1231,7 +1257,8 @@ const data = {
           },
           "phone": "+14156812877",
           "display_phone": "(415) 681-2877",
-          "distance": 4780.653917991791
+          "distance": 4780.653917991791,
+          "visited": false
       },
       {
           "id": "8X8mLLE3CN8gcNwQ2eCWHQ",
@@ -1273,7 +1300,8 @@ const data = {
           },
           "phone": "+14155928526",
           "display_phone": "(415) 592-8526",
-          "distance": 3895.6018323321327
+          "distance": 3895.6018323321327,
+          "visited": false
       },
       {
           "id": "vr3-AAedsZ7V7SLKmY1iQw",
@@ -1319,7 +1347,8 @@ const data = {
           },
           "phone": "+14156816188",
           "display_phone": "(415) 681-6188",
-          "distance": 3942.4666479153207
+          "distance": 3942.4666479153207,
+          "visited": false
       },
       {
           "id": "JUhdVtiIdBXjSTS4494zyw",
@@ -1367,7 +1396,8 @@ const data = {
           },
           "phone": "+14156069336",
           "display_phone": "(415) 606-9336",
-          "distance": 4170.225836643198
+          "distance": 4170.225836643198,
+          "visited": false
       },
       {
           "id": "ma1PrcsC0-XVPWkMrL6T7A",
@@ -1411,7 +1441,8 @@ const data = {
           },
           "phone": "",
           "display_phone": "",
-          "distance": 2712.340122296024
+          "distance": 2712.340122296024,
+          "visited": false
       },
       {
           "id": "NsvzBa88kK7ZFsKnqc_-QA",
@@ -1453,7 +1484,8 @@ const data = {
           },
           "phone": "+14158007001",
           "display_phone": "(415) 800-7001",
-          "distance": 3461.931263589303
+          "distance": 3461.931263589303,
+          "visited": false
       },
       {
           "id": "WxC-bzdy05oSzpjEqT3ZVQ",
@@ -1499,7 +1531,8 @@ const data = {
           },
           "phone": "+14152629989",
           "display_phone": "(415) 262-9989",
-          "distance": 4639.083179566225
+          "distance": 4639.083179566225,
+          "visited": false
       },
       {
           "id": "tCjO8oR2xKEeiPqFRWaJpw",
@@ -1540,7 +1573,8 @@ const data = {
           },
           "phone": "+14154653275",
           "display_phone": "(415) 465-3275",
-          "distance": 274.062283591588
+          "distance": 274.062283591588,
+          "visited": false
       },
       {
           "id": "uew8xmwhq4VDvNDdmXW38g",
@@ -1589,7 +1623,8 @@ const data = {
           },
           "phone": "+14152270888",
           "display_phone": "(415) 227-0888",
-          "distance": 3909.085763479759
+          "distance": 3909.085763479759,
+          "visited": false
       },
       {
           "id": "OS8S5z8CWNpSivKz4o4dAQ",
@@ -1637,7 +1672,8 @@ const data = {
           },
           "phone": "+14157424420",
           "display_phone": "(415) 742-4420",
-          "distance": 4403.595393619249
+          "distance": 4403.595393619249,
+          "visited": false
       },
       {
           "id": "rdfrRK1Z7Ib9T8HaaIjvng",
@@ -1682,7 +1718,8 @@ const data = {
           },
           "phone": "+14156815888",
           "display_phone": "(415) 681-5888",
-          "distance": 3719.6700266169587
+          "distance": 3719.6700266169587,
+          "visited": false
       },
       {
           "id": "D07n3iCL_2jOXHd3l2sh7w",
@@ -1727,7 +1764,8 @@ const data = {
           },
           "phone": "+14157564992",
           "display_phone": "(415) 756-4992",
-          "distance": 2155.9166055808964
+          "distance": 2155.9166055808964,
+          "visited": false
       },
       {
           "id": "wFFVkQDx4roh_ne7Jo5bcA",
@@ -1776,7 +1814,8 @@ const data = {
           },
           "phone": "+14153494717",
           "display_phone": "(415) 349-4717",
-          "distance": 4934.486815560112
+          "distance": 4934.486815560112,
+          "visited": false
       },
       {
           "id": "iukAez3p6EW81okZ7mb-CA",
@@ -1825,7 +1864,8 @@ const data = {
           },
           "phone": "+14157026813",
           "display_phone": "(415) 702-6813",
-          "distance": 3550.3812692533775
+          "distance": 3550.3812692533775,
+          "visited": false
       },
       {
           "id": "XhbkZ-5nUJ3bRy7uKPx7iQ",
@@ -1875,7 +1915,8 @@ const data = {
           },
           "phone": "+14157538788",
           "display_phone": "(415) 753-8788",
-          "distance": 3952.6281107757372
+          "distance": 3952.6281107757372,
+          "visited": false
       },
       {
           "id": "pOGonfd_CgsQ-ZoAK3537g",
@@ -1915,7 +1956,8 @@ const data = {
           },
           "phone": "+16288677122",
           "display_phone": "(628) 867-7122",
-          "distance": 1446.501882857504
+          "distance": 1446.501882857504,
+          "visited": false
       },
       {
           "id": "dViv_h32FR56owNtH6N0fg",
@@ -1959,7 +2001,8 @@ const data = {
           },
           "phone": "+14153096212",
           "display_phone": "(415) 309-6212",
-          "distance": 3482.4810841415488
+          "distance": 3482.4810841415488,
+          "visited": false
       },
       {
           "id": "SdwTaq3BWf6iP1M64gH6lA",
@@ -2004,7 +2047,8 @@ const data = {
           },
           "phone": "",
           "display_phone": "",
-          "distance": 5043.50643654844
+          "distance": 5043.50643654844,
+          "visited": false
       },
       {
           "id": "SU3NmG20Mkho1KRZ8EovWg",
@@ -2050,7 +2094,8 @@ const data = {
           },
           "phone": "+14153494407",
           "display_phone": "(415) 349-4407",
-          "distance": 4454.933508218368
+          "distance": 4454.933508218368,
+          "visited": false
       },
       {
           "id": "C_8tBcwMD5Xy-eA8QCz0Fw",
@@ -2099,7 +2144,8 @@ const data = {
           },
           "phone": "+14156587335",
           "display_phone": "(415) 658-7335",
-          "distance": 3592.982520077722
+          "distance": 3592.982520077722,
+          "visited": false
       },
       {
           "id": "g2ckHUzTfnsFR_pW0Ism7g",
@@ -2141,7 +2187,8 @@ const data = {
           },
           "phone": "+14159672622",
           "display_phone": "(415) 967-2622",
-          "distance": 1846.6157658940588
+          "distance": 1846.6157658940588,
+          "visited": false
       },
       {
           "id": "7ohv_rfRVxBj0F_uVgd-xQ",
@@ -2190,7 +2237,8 @@ const data = {
           },
           "phone": "+14158595642",
           "display_phone": "(415) 859-5642",
-          "distance": 4464.007594883789
+          "distance": 4464.007594883789,
+          "visited": false
       },
       {
           "id": "kXt-6oFKY6hdv3z99soZyA",
@@ -2228,7 +2276,8 @@ const data = {
           },
           "phone": "+14157533338",
           "display_phone": "(415) 753-3338",
-          "distance": 4603.170830321847
+          "distance": 4603.170830321847,
+          "visited": false
       },
       {
           "id": "TTP5YSZxU6DH6iGa3QBbkg",
@@ -2269,7 +2318,8 @@ const data = {
           },
           "phone": "",
           "display_phone": "",
-          "distance": 4685.324606551561
+          "distance": 4685.324606551561,
+          "visited": false
       },
       {
             "id": "XoEx0P8wGHRMtCnQNEQX3g",
@@ -2314,7 +2364,8 @@ const data = {
             },
             "phone": "+14154411627",
             "display_phone": "(415) 441-1627",
-            "distance": 5448.256652806724
+            "distance": 5448.256652806724,
+            "visited": false
         },
         {
             "id": "O5UZcRndRDB1AH1B_DkHLA",
@@ -2354,7 +2405,8 @@ const data = {
             },
             "phone": "+14152211668",
             "display_phone": "(415) 221-1668",
-            "distance": 4751.609426142349
+            "distance": 4751.609426142349,
+            "visited": false
         },
         {
             "id": "qO7gzWxTFgmBQOPRD_pTpQ",
@@ -2403,7 +2455,8 @@ const data = {
             },
             "phone": "+14156445294",
             "display_phone": "(415) 644-5294",
-            "distance": 2565.149094856111
+            "distance": 2565.149094856111,
+            "visited": false
         },
         {
             "id": "sh5emqsZCFjM67xIcp-V0A",
@@ -2445,7 +2498,8 @@ const data = {
             },
             "phone": "+14153622822",
             "display_phone": "(415) 362-2822",
-            "distance": 4757.894141414766
+            "distance": 4757.894141414766,
+            "visited": false
         },
         {
             "id": "nRFR-wMGx2gPOgFIhQnHUQ",
@@ -2483,7 +2537,8 @@ const data = {
             },
             "phone": "",
             "display_phone": "",
-            "distance": 4218.43547841877
+            "distance": 4218.43547841877,
+            "visited": false
         },
         {
             "id": "PpkkyPZs5-BNPNmoU5kXsw",
@@ -2529,7 +2584,8 @@ const data = {
             },
             "phone": "+14153742000",
             "display_phone": "(415) 374-2000",
-            "distance": 3821.9050849511295
+            "distance": 3821.9050849511295,
+            "visited": false
         },
         {
             "id": "jUZcvtmFxsedXY92vvLYqw",
@@ -2571,7 +2627,8 @@ const data = {
             },
             "phone": "+14159862387",
             "display_phone": "(415) 986-2387",
-            "distance": 4698.555560025107
+            "distance": 4698.555560025107,
+            "visited": false
         },
         {
             "id": "mFn0iCjmnvFloONM5DEmlw",
@@ -2618,7 +2675,8 @@ const data = {
             },
             "phone": "+14083070560",
             "display_phone": "(408) 307-0560",
-            "distance": 5140.8367208547725
+            "distance": 5140.8367208547725,
+            "visited": false
         },
         {
             "id": "sbm8eQoPxLfYz6tjw7BnNQ",
@@ -2663,7 +2721,8 @@ const data = {
             },
             "phone": "+14155928090",
             "display_phone": "(415) 592-8090",
-            "distance": 3095.842298726651
+            "distance": 3095.842298726651,
+            "visited": false
         },
         {
             "id": "y-Mg6CbsiLBOiK4XH0mkpQ",
@@ -2705,7 +2764,8 @@ const data = {
             },
             "phone": "+14156685344",
             "display_phone": "(415) 668-5344",
-            "distance": 4181.901587153006
+            "distance": 4181.901587153006,
+            "visited": false
         },
         {
             "id": "10wko5v1ArOGiuoMFQx1Vw",
@@ -2747,7 +2807,8 @@ const data = {
             },
             "phone": "+14156979234",
             "display_phone": "(415) 697-9234",
-            "distance": 5106.979949947551
+            "distance": 5106.979949947551,
+            "visited": false
         },
         {
             "id": "kmcZvmmeYbXBSRbOSi_lfg",
@@ -2796,7 +2857,8 @@ const data = {
             },
             "phone": "",
             "display_phone": "",
-            "distance": 4049.66529479031
+            "distance": 4049.66529479031,
+            "visited": false
         },
         {
             "id": "JFk_e7Q8nzqOXSjcBw9dMw",
@@ -2837,7 +2899,8 @@ const data = {
             },
             "phone": "+14155292364",
             "display_phone": "(415) 529-2364",
-            "distance": 4531.7187895687475
+            "distance": 4531.7187895687475,
+            "visited": false
         },
         {
             "id": "lKdMn-4N22cLda3xvXmvEA",
@@ -2874,7 +2937,8 @@ const data = {
             },
             "phone": "+14156542055",
             "display_phone": "(415) 654-2055",
-            "distance": 3707.4533425748364
+            "distance": 3707.4533425748364,
+            "visited": false
         },
         {
             "id": "fi1P1C4v75WGbQihx1zO9g",
@@ -2922,7 +2986,8 @@ const data = {
             },
             "phone": "+14158395282",
             "display_phone": "(415) 839-5282",
-            "distance": 2964.414446891486
+            "distance": 2964.414446891486,
+            "visited": false
         },
         {
             "id": "s2noUNveNyXYZyVqXGjcNQ",
@@ -2968,7 +3033,8 @@ const data = {
             },
             "phone": "+14159862688",
             "display_phone": "(415) 986-2688",
-            "distance": 4791.52912973326
+            "distance": 4791.52912973326,
+            "visited": false
         },
         {
             "id": "q4vZ4U_ZmiMNi5DsDlFGyA",
@@ -3010,7 +3076,8 @@ const data = {
             },
             "phone": "+14152973632",
             "display_phone": "(415) 297-3632",
-            "distance": 4573.458350771513
+            "distance": 4573.458350771513,
+            "visited": false
         },
         {
             "id": "PEcmbEu7bMCBrRF_L9j2BQ",
@@ -3056,7 +3123,8 @@ const data = {
             },
             "phone": "+14154479003",
             "display_phone": "(415) 447-9003",
-            "distance": 3084.804742848095
+            "distance": 3084.804742848095,
+            "visited": false
         },
         {
             "id": "eKTVnt8QVzVQx05TiUawGQ",
@@ -3102,7 +3170,8 @@ const data = {
             },
             "phone": "+14159864206",
             "display_phone": "(415) 986-4206",
-            "distance": 4800.304098104571
+            "distance": 4800.304098104571,
+            "visited": false
         },
         {
             "id": "GKKDdG0crNbIOU0fNHhhug",
@@ -3148,7 +3217,8 @@ const data = {
             },
             "phone": "+14158729102",
             "display_phone": "(415) 872-9102",
-            "distance": 4259.426415844744
+            "distance": 4259.426415844744,
+            "visited": false
         },
         {
             "id": "KHC0zpAdXnFkkSinD2Rivw",
@@ -3189,7 +3259,8 @@ const data = {
             },
             "phone": "+14157570849",
             "display_phone": "(415) 757-0849",
-            "distance": 4509.031847183247
+            "distance": 4509.031847183247,
+            "visited": false
         },
         {
             "id": "waCtJ0DY-Y6J7Btg7WRhdg",
@@ -3231,7 +3302,8 @@ const data = {
             },
             "phone": "+14159561868",
             "display_phone": "(415) 956-1868",
-            "distance": 4746.856460402359
+            "distance": 4746.856460402359,
+            "visited": false
         },
         {
             "id": "TVLTQ51W6sxp7tL2QQjovg",
@@ -3280,7 +3352,8 @@ const data = {
             },
             "phone": "+14156651000",
             "display_phone": "(415) 665-1000",
-            "distance": 3904.367680463489
+            "distance": 3904.367680463489,
+            "visited": false
         },
         {
             "id": "LFCNEhjIioyHBFE6uLfikw",
@@ -3329,7 +3402,8 @@ const data = {
             },
             "phone": "+14156587471",
             "display_phone": "(415) 658-7471",
-            "distance": 3317.9975328855344
+            "distance": 3317.9975328855344,
+            "visited": false
         },
         {
             "id": "ecQFeTaqsuHem8Rf7sy3eg",
@@ -3372,7 +3446,8 @@ const data = {
             },
             "phone": "",
             "display_phone": "",
-            "distance": 4524.97340816537
+            "distance": 4524.97340816537,
+            "visited": false
         },
         {
             "id": "O-W4vnk2PKCJ9AD0KGDJ6g",
@@ -3410,7 +3485,8 @@ const data = {
             },
             "phone": "+14154688123",
             "display_phone": "(415) 468-8123",
-            "distance": 4462.076475796168
+            "distance": 4462.076475796168,
+            "visited": false
         },
         {
             "id": "pSVzNRoyaGZJ_hbm0T_tVg",
@@ -3452,7 +3528,8 @@ const data = {
             },
             "phone": "+14159260166",
             "display_phone": "(415) 926-0166",
-            "distance": 5005.853234355039
+            "distance": 5005.853234355039,
+            "visited": false
         },
         {
             "id": "8XmKxo4MmowayIEwHWrdnw",
@@ -3490,7 +3567,8 @@ const data = {
             },
             "phone": "+14159969829",
             "display_phone": "(415) 996-9829",
-            "distance": 2532.298960435448
+            "distance": 2532.298960435448,
+            "visited": false
         },
         {
             "id": "UrlIkoy5MySVMKY30bid1w",
@@ -3535,7 +3613,8 @@ const data = {
             },
             "phone": "+14153621118",
             "display_phone": "(415) 362-1118",
-            "distance": 4419.727732859244
+            "distance": 4419.727732859244,
+            "visited": false
         },
         {
             "id": "NcBe0E7_Tx4D_21TP3MNcQ",
@@ -3584,7 +3663,8 @@ const data = {
             },
             "phone": "+14155358531",
             "display_phone": "(415) 535-8531",
-            "distance": 5417.670216660503
+            "distance": 5417.670216660503,
+            "visited": false
         },
         {
             "id": "XOckc_gNRzagN3v6e9P4vw",
@@ -3630,7 +3710,8 @@ const data = {
             },
             "phone": "+14152382992",
             "display_phone": "(415) 238-2992",
-            "distance": 4833.897792298045
+            "distance": 4833.897792298045,
+            "visited": false
         },
         {
             "id": "gqJbs_-9rAGFQzC1QZXd1g",
@@ -3671,7 +3752,8 @@ const data = {
             },
             "phone": "+14157664452",
             "display_phone": "(415) 766-4452",
-            "distance": 4475.336628112996
+            "distance": 4475.336628112996,
+            "visited": false
         },
         {
             "id": "JWxqFUDpzX-tn7aikLlOQQ",
@@ -3718,7 +3800,8 @@ const data = {
             },
             "phone": "+14159881660",
             "display_phone": "(415) 988-1660",
-            "distance": 4125.726231753464
+            "distance": 4125.726231753464,
+            "visited": false
         },
         {
             "id": "o__w2Hufu0Bdc_hKfi8OYg",
@@ -3762,7 +3845,8 @@ const data = {
             },
             "phone": "+14153990888",
             "display_phone": "(415) 399-0888",
-            "distance": 4659.294253166602
+            "distance": 4659.294253166602,
+            "visited": false
         },
         {
             "id": "Wa29sk6rp8NUbwmXslssPQ",
@@ -3811,7 +3895,8 @@ const data = {
             },
             "phone": "+14158298517",
             "display_phone": "(415) 829-8517",
-            "distance": 2971.7463962314537
+            "distance": 2971.7463962314537,
+            "visited": false
         },
         {
             "id": "405xpGfzDWLqD638kMIpyg",
@@ -3857,7 +3942,8 @@ const data = {
             },
             "phone": "+14158143507",
             "display_phone": "(415) 814-3507",
-            "distance": 2961.6774018025576
+            "distance": 2961.6774018025576,
+            "visited": false
         },
         {
             "id": "wxb6aiRsxx1465IIxv4Sig",
@@ -3906,7 +3992,8 @@ const data = {
             },
             "phone": "+14153339088",
             "display_phone": "(415) 333-9088",
-            "distance": 4494.226917492847
+            "distance": 4494.226917492847,
+            "visited": false
         },
         {
             "id": "O9ut-lJGzw0QamVJ8HKH4w",
@@ -3955,7 +4042,8 @@ const data = {
             },
             "phone": "+14159627988",
             "display_phone": "(415) 962-7988",
-            "distance": 3918.9527856082586
+            "distance": 3918.9527856082586,
+            "visited": false
         },
         {
             "id": "ZEZBX5AtYDFa1KhNPLCB5g",
@@ -4004,7 +4092,8 @@ const data = {
             },
             "phone": "+14152270288",
             "display_phone": "(415) 227-0288",
-            "distance": 3624.2852498639863
+            "distance": 3624.2852498639863,
+            "visited": false
         },
         {
             "id": "WXAjDSOPkhm1vz4aYoLoqA",
@@ -4048,7 +4137,8 @@ const data = {
             },
             "phone": "+14155292015",
             "display_phone": "(415) 529-2015",
-            "distance": 4228.108588724943
+            "distance": 4228.108588724943,
+            "visited": false
         },
         {
             "id": "VYGJvy0NWyq3ky2ALiXnhQ",
@@ -4097,7 +4187,8 @@ const data = {
             },
             "phone": "+14153346959",
             "display_phone": "(415) 334-6959",
-            "distance": 4464.665636863688
+            "distance": 4464.665636863688,
+            "visited": false
         },
         {
             "id": "a84BhyYIe-utxzKhX9HhYA",
@@ -4139,7 +4230,8 @@ const data = {
             },
             "phone": "+14155089452",
             "display_phone": "(415) 508-9452",
-            "distance": 3868.833386468224
+            "distance": 3868.833386468224,
+            "visited": false
         },
         {
             "id": "Yl-RSgod49o-vA8DLpg3Vg",
@@ -4184,7 +4276,8 @@ const data = {
             },
             "phone": "+14155902379",
             "display_phone": "(415) 590-2379",
-            "distance": 1368.6244133033535
+            "distance": 1368.6244133033535,
+            "visited": false
         },
         {
             "id": "s_flMNwYHcyyWhe0qhevsA",
@@ -4229,7 +4322,8 @@ const data = {
             },
             "phone": "+14157026026",
             "display_phone": "(415) 702-6026",
-            "distance": 3665.0399238262535
+            "distance": 3665.0399238262535,
+            "visited": false
         },
         {
             "id": "_wZlW8K6aBKfyBPVzyBRMg",
@@ -4273,7 +4367,8 @@ const data = {
             },
             "phone": "+14159881660",
             "display_phone": "(415) 988-1660",
-            "distance": 5403.495986547185
+            "distance": 5403.495986547185,
+            "visited": false
         },
         {
             "id": "daoE5bWLpRyQW3mUs-vRPw",
@@ -4319,7 +4414,8 @@ const data = {
             },
             "phone": "+14154186987",
             "display_phone": "(415) 418-6987",
-            "distance": 4739.04055131808
+            "distance": 4739.04055131808,
+            "visited": false
         },
         {
             "id": "KzCFzM46wAy0Bxgu3DwT6w",
@@ -4365,7 +4461,8 @@ const data = {
             },
             "phone": "+15103335488",
             "display_phone": "(510) 333-5488",
-            "distance": 4915.615624787596
+            "distance": 4915.615624787596,
+            "visited": false
         },
       {
           "id": "UplVWsp1X7MjOR2W3cYwEg",
@@ -4413,7 +4510,8 @@ const data = {
           },
           "phone": "+14159889689",
           "display_phone": "(415) 988-9689",
-          "distance": 5107.047614787859
+          "distance": 5107.047614787859,
+          "visited": false
       },
       {
           "id": "ikm_AZ-dR-UTs8E2gtsBgg",
@@ -4461,7 +4559,8 @@ const data = {
           },
           "phone": "",
           "display_phone": "",
-          "distance": 5657.614587846988
+          "distance": 5657.614587846988,
+          "visited": false
       },
       {
           "id": "zR5_oDWL4OTekNh4LxBnpA",
@@ -4499,7 +4598,8 @@ const data = {
           },
           "phone": "",
           "display_phone": "",
-          "distance": 4477.437635194604
+          "distance": 4477.437635194604,
+          "visited": false
       },
       {
           "id": "Vz65S2pOIjCCVnzENNa_aA",
@@ -4539,7 +4639,8 @@ const data = {
           },
           "phone": "",
           "display_phone": "",
-          "distance": 4295.243754009246
+          "distance": 4295.243754009246,
+          "visited": false
       }
   ],
 };

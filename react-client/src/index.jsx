@@ -11,6 +11,7 @@ class App extends React.Component {
     this.state = { 
       restaurants: [],
       visited: [],
+      count: 0,
       notVisited: []
     }
 
@@ -51,6 +52,25 @@ class App extends React.Component {
   }
 
   clickVisited(restaurant) {
+    const restaurantsCopy = this.state.restaurants.slice();
+    for (let i = 0; i < restaurantsCopy.length; i++) {
+      if (restaurantsCopy[i].id === restaurant.id) {
+        restaurantsCopy[i].visited = !restaurantsCopy[i].visited;
+        if (restaurantsCopy[i].visited === true) {
+          this.setState((prevState) => ({
+            count: prevState.count + 1
+        }))
+        } else {
+          this.setState((prevState) => ({
+            count: prevState.count - 1
+        }))
+        }
+        break;
+      }
+    }
+
+    this.setState({restaurants: restaurantsCopy});
+
     axios.post('/restaurants/user', restaurant)
     .then(this.updateVisited)
     .catch((error) => {
@@ -59,13 +79,13 @@ class App extends React.Component {
   }
 
   render() {
-    const { restaurants, visited } = this.state;
+    const { restaurants, visited, count } = this.state;
     return (
       <div>
         <div className="top-row">
           <div className="header center">Boba Buddy</div>
           <div className="sentence center">
-            You've been to <span className="visits">{ visited.length } out of { restaurants.length } ({ ((visited.length/restaurants.length) * 100).toFixed(1) }%)</span> of boba spots in San Francisco.
+            You've been to <span className="visits">{ count } out of { restaurants.length } ({ ((count/restaurants.length) * 100).toFixed(1) }%)</span> of boba spots in San Francisco.
           </div>
         </div>
         
