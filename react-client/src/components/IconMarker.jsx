@@ -1,14 +1,20 @@
 import React from "react";
 import { Marker } from "react-google-maps";
-// import StethoscopeIcon from "../stethoscopeIcon.png";
+import bobaicon from "./bobaicon.png";
 
 class IconMarker extends React.Component {
-
-  render(){
-    return(
+  constructor(props) {
+    super(props);
+  }
+  render() {
+    return (
         <Marker
           position={this.props.location}
-          // icon={StethoscopeIcon}
+          icon={{
+            url: bobaicon,
+            scaledSize: new google.maps.Size(45, 45)
+          }}
+
         >
         </Marker>
     );

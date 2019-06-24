@@ -10,12 +10,32 @@ app.use(bodyParser.json());
 
 app.use(express.static(__dirname + '/../react-client/dist'));
 
-app.get('/restaurants', function (req, res) {
-  restaurants.selectAll(function(err, data) {
+app.get('/restaurants', (req, res) => {
+  restaurants.selectAll((err, data) => {
     if (err) {
       res.sendStatus(500);
     } else {
       res.send(data);
+    }
+  });
+});
+
+app.get('/restaurants/user', (req, res) => {
+  restaurants.getVisited((err, data) => {
+    if (err) {
+      res.sendStatus(500);
+    } else {
+      res.send(data);
+    }
+  });
+});
+
+app.post('/restaurants/user', (req, res) => {
+  restaurants.postVisited(req.body, (err, data) => {
+    if (err) {
+      res.sendStatus(500);
+    } else {
+      res.sendStatus(201);
     }
   });
 });

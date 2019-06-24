@@ -6,12 +6,19 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+.top-row {
+  padding-bottom: 24px;
+}
+
 .header {
   font-size: 36px;
+}
+
+.center {
   text-align: center;
 }
 
-.row {
+.bottom-row {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -23,16 +30,44 @@ body {
   flex-direction: column;
   flex-basis: 100%;
   flex: 1;
-  max-height: 500px;
+  max-height: 550px;
 }
 
 .column-left {
   
 }
 
-.column-right {
-  margin-left: 50px; 
+.column-right { 
+  max-width: 675px;
+  height: 1000px;
+  border: 1px solid gray;
+  border-radius: 2px;
+}
+
+.restaurant-list {
   overflow: auto;
-  max-width: 500px;
-  box-shadow: 0px 0px 10px 0px #dddddd;
+  height: 425px;
+}
+
+.restaurant {
+  padding: 1em;
+  border: 1px solid gray;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 0px 0px 5px 0px #b4b4b4;
+}
+
+.restaurant-info {
+
+}
+
+.restaurant-name {
+  padding: 1em;
+  vertical-align: middle;
+}
+
+
+.picture {
+  width: 80px;
+  height: 80px;
 }

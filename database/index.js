@@ -1,18 +1,18 @@
-var mongoose = require('mongoose');
+const mongoose = require('mongoose');
 mongoose.connect('mongodb://localhost/yelp');
 
-var db = mongoose.connection;
+const db = mongoose.connection;
 
-db.on('error', function() {
+db.on('error', () => {
   console.log('mongoose connection error');
 });
 
-db.once('open', function() {
+db.once('open', () => {
   console.log('mongoose connected successfully');
 });
 
-var restaurantSchema = mongoose.Schema({
-  id: String,
+const restaurantSchema = mongoose.Schema({
+  id: {type: String, unique: true},
   alias: String,
   name: String,
   image_url: String,
@@ -39,11 +39,11 @@ var restaurantSchema = mongoose.Schema({
   distance: Number
 });
 
-var Restaurant = mongoose.model('Restaurant', restaurantSchema);
+const Restaurant = mongoose.model('Restaurant', restaurantSchema);
 
-var selectAll = function(callback) {
-  Restaurant.find({}, function(err, restaurants) {
-    if(err) {
+const selectAll = (callback) => {
+  Restaurant.find({}, (err, restaurants) => {
+    if (err) {
       callback(err, null);
     } else {
       callback(null, restaurants);
@@ -51,4 +51,28 @@ var selectAll = function(callback) {
   });
 };
 
-module.exports = {selectAll, Restaurant};
+const VisitedRestaurant = mongoose.model('VisitedRestaurant', restaurantSchema);
+
+const getVisited = (callback) => {
+  VisitedRestaurant.find({}, (err, restaurants) => {
+    if (err) {
+      callback(err, null);
+    } else {
+      callback(null, restaurants);
+    }
+  });
+};
+
+const postVisited = (restaurantObj, callback) => {
+  VisitedRestaurant.create(restaurantObj, (err) => {
+    if (err) {
+      callback(err, null);
+    } else {
+      callback(null, restaurantObj);
+    }
+  });
+};
+
+module.exports = {
+  selectAll, Restaurant, 
+  getVisited, postVisited, VisitedRestaurant};

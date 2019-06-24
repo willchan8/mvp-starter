@@ -50,7 +50,7 @@ const data = {
       {
           "id": "yn5gA62ekL-TzKBBI_rq-A",
           "alias": "boba-guys-san-francisco-6",
-          "name": "Boba Guys",
+          "name": "Boba Guys - Union Square",
           "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/fzCU6GvFSpqZN4hus52CGw/o.jpg",
           "is_closed": false,
           "url": "https://www.yelp.com/biz/boba-guys-san-francisco-6?adjust_creative=P5pYYGDL2V565glj4yr-eQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=P5pYYGDL2V565glj4yr-eQ",
@@ -138,7 +138,7 @@ const data = {
       {
           "id": "18TtLS_JtiS2OH30FLqNrw",
           "alias": "boba-guys-san-francisco-4",
-          "name": "Boba Guys",
+          "name": "Boba Guys - Mission",
           "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/25C1E42sWv1N4wBa99qc-Q/o.jpg",
           "is_closed": false,
           "url": "https://www.yelp.com/biz/boba-guys-san-francisco-4?adjust_creative=P5pYYGDL2V565glj4yr-eQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=P5pYYGDL2V565glj4yr-eQ",
@@ -546,7 +546,7 @@ const data = {
       {
           "id": "168JCbfPASa30FoHZZaIEg",
           "alias": "boba-guys-san-francisco-10",
-          "name": "Boba Guys",
+          "name": "Boba Guys - Fillmore",
           "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/4kq5IQZOZQMpWJdmHkOVUw/o.jpg",
           "is_closed": false,
           "url": "https://www.yelp.com/biz/boba-guys-san-francisco-10?adjust_creative=P5pYYGDL2V565glj4yr-eQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=P5pYYGDL2V565glj4yr-eQ",
@@ -592,7 +592,7 @@ const data = {
       {
           "id": "6o0GBaGjWfBkAWFU0Qb6Hw",
           "alias": "boba-guys-san-francisco-7",
-          "name": "Boba Guys",
+          "name": "Boba Guys - Hayes Valley",
           "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/-QmiBslUaTp1HUohKTCigg/o.jpg",
           "is_closed": false,
           "url": "https://www.yelp.com/biz/boba-guys-san-francisco-7?adjust_creative=P5pYYGDL2V565glj4yr-eQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=P5pYYGDL2V565glj4yr-eQ",

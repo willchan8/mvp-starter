@@ -10,11 +10,20 @@ class App extends React.Component {
     super(props);
     this.state = { 
       restaurants: [],
-      visitedRestaurants: []
+      visited: [],
     }
+
+    this.getRestaurants = this.getRestaurants.bind(this);
+    this.updateVisited = this.updateVisited.bind(this);
+    this.clickVisited = this.clickVisited.bind(this);
   }
 
   componentDidMount() {
+    this.getRestaurants();
+    this.updateVisited();
+  }
+
+  getRestaurants() {
     $.ajax({
       url: '/restaurants', 
       success: (data) => {
@@ -28,17 +37,43 @@ class App extends React.Component {
     });
   }
 
-  render () {
-    const {restaurants} = this.state;
+  updateVisited() {
+    axios.get('/restaurants/user')
+    .then((response) => {
+      console.log(response.data);
+      console.log("GOT SAVED DATA");
+      this.setState({visited: response.data})
+    })
+    .catch((error) => {
+      console.log(error);
+    });
+  }
+
+  clickVisited(restaurant) {
+    axios.post('/restaurants/user', restaurant)
+    .then(this.updateVisited)
+    .catch((error) => {
+      console.log(error);
+    });
+  }
+
+  render() {
+    const { restaurants, visited } = this.state;
     return (
       <div>
-        <h1 className="header">Boba Buddy</h1>
-        <div className="row">
+        <div className="top-row">
+          <h1 className="header center">Boba Buddy</h1>
+          <div className="center">
+            You've been to { visited.length } / { restaurants.length } ({ ((visited.length/restaurants.length) * 100).toFixed(1) }%) of boba spots in San Francisco.
+          </div>
+        </div>
+        
+        <div className="bottom-row">
           <div className="column">
-            <MapContainer restaurants={restaurants}/>
+            <MapContainer restaurants={restaurants} visited={visited}/>
           </div>
           <div className="column">
-            <RestaurantList restaurants={restaurants}/>
+            <RestaurantList restaurants={restaurants} visited={visited} clickVisited={this.clickVisited}/>
           </div>
         </div>
       </div>
