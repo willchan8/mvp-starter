@@ -62,18 +62,18 @@ class App extends React.Component {
     return (
       <div>
         <div className="top-row">
-          <h1 className="header center">Boba Buddy</h1>
-          <div className="center">
-            You've been to { visited.length } / { restaurants.length } ({ ((visited.length/restaurants.length) * 100).toFixed(1) }%) of boba spots in San Francisco.
+          <div className="header center">Boba Buddy</div>
+          <div className="visits center">
+            You've been to { visited.length } out of { restaurants.length } ({ ((visited.length/restaurants.length) * 100).toFixed(1) }%) of boba spots in San Francisco.
           </div>
         </div>
         
         <div className="bottom-row">
           <div className="column">
-            <MapContainer restaurants={restaurants} visited={visited}/>
+            <RestaurantList restaurants={restaurants} visited={visited} clickVisited={this.clickVisited}/>
           </div>
           <div className="column">
-            <RestaurantList restaurants={restaurants} visited={visited} clickVisited={this.clickVisited}/>
+            <MapContainer restaurants={restaurants} visited={visited}/>
           </div>
         </div>
       </div>

@@ -12,7 +12,7 @@ const RestaurantMap = withScriptjs(withGoogleMap((props) => {
   />);
 
   return (
-    <div className="column-left">
+    <div className="column-right">
       <GoogleMap
         defaultZoom={12}
         center={ { lat:  37.7757, lng: -122.4425 } }
