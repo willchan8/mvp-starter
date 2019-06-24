@@ -11,6 +11,7 @@ class App extends React.Component {
     this.state = { 
       restaurants: [],
       visited: [],
+      notVisited: []
     }
 
     this.getRestaurants = this.getRestaurants.bind(this);
@@ -40,9 +41,9 @@ class App extends React.Component {
   updateVisited() {
     axios.get('/restaurants/user')
     .then((response) => {
-      console.log(response.data);
-      console.log("GOT SAVED DATA");
-      this.setState({visited: response.data})
+      this.setState({
+        visited: response.data
+      })
     })
     .catch((error) => {
       console.log(error);

@@ -180,44 +180,6 @@ const data = {
           "distance": 3645.798542087573
       },
       {
-        "id": "18TtLS_JtiS2OH30FLqNrw",
-        "alias": "boba-guys-san-francisco-4",
-        "name": "Boba Guys - Mission",
-        "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/25C1E42sWv1N4wBa99qc-Q/o.jpg",
-        "is_closed": false,
-        "url": "https://www.yelp.com/biz/boba-guys-san-francisco-4?adjust_creative=P5pYYGDL2V565glj4yr-eQ&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=P5pYYGDL2V565glj4yr-eQ",
-        "review_count": 1399,
-        "categories": [
-            {
-                "alias": "bubbletea",
-                "title": "Bubble Tea"
-            }
-        ],
-        "rating": 4,
-        "coordinates": {
-            "latitude": 37.75994,
-            "longitude": -122.42112
-        },
-        "transactions": [],
-        "price": "$",
-        "location": {
-            "address1": "3491 19th St",
-            "address2": "",
-            "address3": "",
-            "city": "San Francisco",
-            "zip_code": "94110",
-            "country": "US",
-            "state": "CA",
-            "display_address": [
-                "3491 19th St",
-                "San Francisco, CA 94110"
-            ]
-        },
-        "phone": "+14159672622",
-        "display_phone": "(415) 967-2622",
-        "distance": 1353.0244808857371
-      },
-      {
           "id": "vMiM0kaavveZZ61lBe-LJg",
           "alias": "plentea-san-francisco-san-francisco",
           "name": "Plentea - San Francisco",

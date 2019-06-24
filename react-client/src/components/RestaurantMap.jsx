@@ -5,11 +5,13 @@ import IconMarker from './IconMarker.jsx';
 
 const RestaurantMap = withScriptjs(withGoogleMap((props) => {
 
-  const markers = props.restaurants.map( restaurant => <IconMarker
-    key={restaurant.id}
-    restaurant={restaurant}
-    location={{lat: restaurant.coordinates.latitude, lng: restaurant.coordinates.longitude}}
-  />);
+  const markers = props.restaurants.map( restaurant => 
+    <IconMarker
+      key={restaurant.id}
+      restaurant={restaurant}
+      location={{lat: restaurant.coordinates.latitude, lng: restaurant.coordinates.longitude}}
+    />
+  );
 
   return (
     <div className="column-right">
