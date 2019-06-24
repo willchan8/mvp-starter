@@ -14,14 +14,20 @@ body {
 .header {
   font-size: 36px;
   font-weight: 750;
+  padding: 20px;
 }
 
-.visits {
+.sentence {
   font-size: 36px;
 }
 
 .center {
   text-align: center;
+}
+
+.visits {
+  font-weight: 900;
+  font-size: 42px;
 }
 
 .bottom-row {
@@ -99,6 +105,10 @@ body {
 
 .address {
   font-size: 14px;
+}
+
+button:focus {
+  outline:0;
 }
 
 .visit-button {

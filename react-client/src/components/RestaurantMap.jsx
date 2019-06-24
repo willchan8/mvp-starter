@@ -5,7 +5,7 @@ import IconMarker from './IconMarker.jsx';
 
 const RestaurantMap = withScriptjs(withGoogleMap((props) => {
 
-  const markers = props.restaurants.map( restaurant => 
+  const markers = props.visited.map( restaurant => 
     <IconMarker
       key={restaurant.id}
       restaurant={restaurant}

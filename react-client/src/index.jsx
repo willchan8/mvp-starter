@@ -64,8 +64,8 @@ class App extends React.Component {
       <div>
         <div className="top-row">
           <div className="header center">Boba Buddy</div>
-          <div className="visits center">
-            You've been to { visited.length } out of { restaurants.length } ({ ((visited.length/restaurants.length) * 100).toFixed(1) }%) of boba spots in San Francisco.
+          <div className="sentence center">
+            You've been to <span className="visits">{ visited.length } out of { restaurants.length } ({ ((visited.length/restaurants.length) * 100).toFixed(1) }%)</span> of boba spots in San Francisco.
           </div>
         </div>
         
