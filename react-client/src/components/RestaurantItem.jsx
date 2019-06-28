@@ -6,16 +6,20 @@ import React from 'react';
       }
     
       render() {
-        const visitText = this.props.restaurant.visited ? 'Visited' : 'Check In';
+
+        const {restaurant, clickVisited} = this.props;
+
+        const visitText = restaurant.visited ? 'Visited' : 'Check In';
+        const buttonClass = restaurant.visited ? 'visit-button green' : 'visit-button';
         return (
           <div className="restaurant">
-          <img className="picture" src={this.props.restaurant.image_url} alt=""/>
+          <img className="picture" src={restaurant.image_url} alt=""/>
           <div className="restaurant-info">
-            <div className="restaurant-name">{ this.props.restaurant.name }</div>
-            <div className="rating">Rating: { this.props.restaurant.rating } / 5 ({this.props.restaurant.review_count} Reviews)</div>
-            <div className="phone">{ this.props.restaurant.display_phone }</div>
-            <div className="address">{ this.props.restaurant.location.address1 }</div>
-            <button className="visit-button" onClick={() => {this.props.clickVisited(this.props.restaurant)}}>{visitText}</button>
+            <div className="restaurant-name">{ restaurant.name }</div>
+            <div className="rating">Rating: { restaurant.rating } / 5 ({restaurant.review_count} Reviews)</div>
+            <div className="phone">{ restaurant.display_phone }</div>
+            <div className="address">{ restaurant.location.address1 }</div>
+            <button className={buttonClass} onClick={() => {clickVisited(restaurant)}}>{visitText}</button>
           </div>
         </div>
         );

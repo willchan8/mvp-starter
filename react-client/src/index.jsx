@@ -12,7 +12,9 @@ class App extends React.Component {
       restaurants: [],
       visited: [],
       count: 0,
-      notVisited: []
+      notVisited: [],
+      currentPage: 1,
+      restaurantsPerPage: 20
     }
 
     this.getRestaurants = this.getRestaurants.bind(this);
@@ -91,7 +93,11 @@ class App extends React.Component {
         
         <div className="bottom-row">
           <div className="column">
-            <RestaurantList restaurants={restaurants} visited={visited} clickVisited={this.clickVisited}/>
+            <RestaurantList 
+              restaurants={restaurants} 
+              visited={visited} 
+              clickVisited={this.clickVisited}
+            />
           </div>
           <div className="column">
             <MapContainer restaurants={restaurants} visited={visited}/>
