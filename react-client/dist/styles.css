@@ -12,9 +12,9 @@ body {
 }
 
 .header {
-  font-size: 56px;
+  font-size: 42px;
   font-weight: 750;
-  padding: 20px;
+  padding: 5px;
   color: black;
   text-shadow:
    -1px -1px 0 white,  
@@ -24,7 +24,7 @@ body {
 }
 
 .sentence {
-  font-size: 36px;
+  font-size: 28px;
 }
 
 .center {
@@ -33,7 +33,7 @@ body {
 
 .visits {
   font-weight: 900;
-  font-size: 42px;
+  font-size: 36px;
   color: black;
   text-shadow:
    -1px -1px 0 white,  
@@ -54,7 +54,6 @@ body {
   flex-direction: column;
   flex-basis: 100%;
   flex: 1;
-  max-height: 550px;
 }
 
 .column-left { 
@@ -76,7 +75,7 @@ body {
 }
 
 .restaurant-list {
-  overflow: auto;
+  overflow-y: scroll;
   height: 435px;
 }
 
